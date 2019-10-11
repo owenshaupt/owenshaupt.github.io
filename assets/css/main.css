@@ -163,7 +163,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #4e603e;
+		color: black;
 		font-weight: 800;
 		letter-spacing: 0.225em;
 		line-height: 1em;
@@ -3445,7 +3445,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #2e3842;
+		background: #C3D6E5;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3504,7 +3504,7 @@ input, select, textarea {
 
 					#header nav > ul > li > a {
 						border: 0;
-						color: #4e603e;
+						color: black;
 						display: block;
 						font-size: 0.8em;
 						letter-spacing: 0.225em;
@@ -3611,7 +3611,7 @@ input, select, textarea {
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
-				background: rgb(78, 96, 62);
+				background: black;
 				content: '';
 				display: block;
 				height: 2px;
@@ -3634,7 +3634,7 @@ input, select, textarea {
 			text-transform: uppercase;
 			position: relative;
 			top: -170px;
-			color: rgb(78, 96, 62);
+			color: black;
 		}
 
 			#banner p a {
