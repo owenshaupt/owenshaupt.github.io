@@ -3718,6 +3718,12 @@ input, select, textarea {
 
 				#banner h2 {
 					font-size: 1.25em;
+					top: -80px;
+				}
+
+				#banner p {
+					top: -97px;
+					font-size: .7em;
 				}
 
 				#banner br {
