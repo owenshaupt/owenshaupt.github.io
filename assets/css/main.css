@@ -1775,7 +1775,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 0 0 3.5em 0;
+		margin: 0 0 1.5em 0;
 	}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
@@ -1799,7 +1799,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			header.major {
-				margin: 0 0 2em 0;
+				margin: 0 0 1.5em 0;
 			}
 
 		}
@@ -2807,7 +2807,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0 ;
+		padding: 1.5em 0 4em 0 ;
 	}
 
 		.wrapper > .inner {
@@ -2999,7 +2999,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: #484838;
 			color: #d3d4e4;
 		}
 
@@ -3323,7 +3323,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.wrapper {
-				padding: 4em 3em 2em 3em ;
+				padding: 1.5em 3em 2em 3em ;
 			}
 
 		}
@@ -3331,7 +3331,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.wrapper {
-				padding: 3em 2em 1em 2em ;
+				padding: 1.5em 2em 1em 2em ;
 			}
 
 		}
@@ -4030,3 +4030,74 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+/* below, added by Owen */
+
+.me-div {
+	position: relative;
+	width: 170px;
+	height: 170px;
+	border: solid white 1px;
+	overflow: hidden;
+	margin: 0px auto 1em;
+}
+
+#me {
+	position: absolute;
+	top: -40%;
+	left: -27%;
+}
+
+.tech-icons {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	margin: 0px auto;
+}
+
+.icon-row {
+	display: flex;
+	margin: 0px auto 25px;
+}
+
+.icon-holder {
+	margin: 0px auto;
+	width: 145px;
+	height: 145px;
+}
+
+@media screen and (max-width: 736px) {
+	.icon {
+		height: 75px;
+		width: 75px;
+	}
+
+	.icon-holder {
+		width: 109px;
+		height: 109px;
+	}
+}
+
+@media screen and (max-width: 620px) {
+	.icon {
+		height: 50px;
+		width: 50px;
+	}
+
+	.icon-holder {
+		width: 60px;
+		height: 60px;
+	}
+}
+
+@media screen and (max-width: 370px) {
+	.icon {
+		height: 40px;
+		width: 40px;
+	}
+
+	.icon-holder {
+		width: 45px;
+		height: 45px;
+	}
+}
