@@ -4182,3 +4182,8 @@ input, select, textarea {
 #email-link:hover {
 	color: rgb(190, 190, 190);
 }
+
+.resume-link {
+	border: none;
+	margin: 0px 25px;
+}
