@@ -2836,7 +2836,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #484838;
+			background-color: #59554C;
 			color: #c8ece9;
 		}
 
@@ -2995,11 +2995,11 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-color: #B2C7E2;
+			background-color: #D9BA82;
 		}
 
 		.wrapper.style3 {
-			background-color: #484838;
+			background-color: #59554C;
 			color: #d3d4e4;
 		}
 
@@ -3162,7 +3162,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style5 {
-			background-color: #ffffff;
+			background-color: #E8D3BE;
 			color: #4E4852;
 		}
 
@@ -3370,7 +3370,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #B2C7E2;
+		background: #D9BA82;
 		color: #000000;
 		height: 100%;
 		max-width: 80%;
@@ -3464,7 +3464,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #B2C7E2;
+		background: #BFAE99;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3604,7 +3604,7 @@ input, select, textarea {
 	}
 
 		#banner h2 {
-			color: #484838;
+			color: #59554C;
 			-moz-transform: scale(1);
 			-webkit-transform: scale(1);
 			-ms-transform: scale(1);
@@ -3631,7 +3631,7 @@ input, select, textarea {
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
-				background: #484838;
+				background: #59554C;
 				content: '';
 				display: block;
 				height: 2px;
@@ -3654,7 +3654,7 @@ input, select, textarea {
 			text-transform: uppercase;
 			position: relative;
 			top: -200px;
-			color: #484838;
+			color: #59554C;
 		}
 
 			#banner p a {
@@ -4034,7 +4034,6 @@ input, select, textarea {
 /* below, added by Owen */
 
 .me-div {
-	position: relative;
 	width: 250px;
 	height: 250px;
 	border: solid white 1px;
@@ -4042,11 +4041,18 @@ input, select, textarea {
 	margin: 0px auto 1em;
 }
 
+/*
+
+currently not needed bc
+square photo is supplied
+
 #me {
 	position: absolute;
 	top: -54%;
 	left: -41%;
 }
+
+*/
 
 .tech-icons {
 	display: flex;
@@ -4146,11 +4152,17 @@ input, select, textarea {
 	}
 }
 
+/*
+
+removing border and padding
+
 .connect-form {
 	border: solid lightgray 1px;
 	border-radius: 4px;
 	padding: 30px;
 }
+
+*/
 
 #connect > div > header > h2 {
 	border: none;
@@ -4163,11 +4175,16 @@ input, select, textarea {
 	margin-bottom: 30px;
 }
 
+.input-div > input {
+	background-color: white !important;
+}
+
 .input-div.area {
 	height: fit-content;
 }
 
 .input-div.area > textarea {
+	background-color: white !important;
 }
 
 .form.button {
